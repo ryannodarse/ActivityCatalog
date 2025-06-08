@@ -1,0 +1,29 @@
+Note any citations and image links here
+
+Most images:
+https://www.facebook.com/campauroranh/
+
+Generating many CSS Properties:
+https://cssgenerator.org/
+
+Researching about CSS/HTML properties/tags:
+https://www.w3schools.com/
+
+Inspiration for activity tag visuals:
+https://pokemon.fandom.com/wiki/List_of_Pok%C3%A9mon
+
+Inspiration for tag hover effects:
+https://deeprockgalactic.wiki.gg/
+
+Chevron Down Icon:
+https://uxwing.com/chevron-down-icon/
+
+Fonts:
+https://fonts.google.com/
+
+For making custom button click area:
+https://bennettfeely.com/clippy/
+clip-path: polygon(59% 70%, 36% 70%, 21% 67%, 13% 56%, 18% 45%, 31% 30%, 46% 21%, 70% 34%, 86% 50%, 85% 57%, 78% 65%);
+
+Cloud:
+<a href='https://pngtree.com/freepng/single-cloud-on-a-transparent-background_18736825.html'>png image from pngtree.com/</a>

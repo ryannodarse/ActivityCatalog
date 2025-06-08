@@ -1,0 +1,134 @@
+@font-face{
+    font-family: Sigmar-One;
+    src: url("fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf");
+}
+
+body{
+    background: #438d46;
+    background-size: cover;
+    color: #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.actTags { /* Skills stretch: Formatting help from https://www.w3schools.com/ and Column help from https://cssgenerator.org/ */
+    list-style: none;
+    column-count: 3;
+    column-gap: 20px;
+    max-height: 400px;
+    max-width: 600px;
+    padding: 5px;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.actTags a{ /* Skills stretch: Contrast and shadows help from https://cssgenerator.org/ */
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+    border: 1px solid #000000;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.6);
+    padding: 4px;
+    margin-bottom: 10px;
+    display: block;
+}
+.actLowPrep a{ background-color: #a7a7a7; }
+.actIcebreaker a{ background-color: #74c1ff; }
+.actField a{ background-color: #00d31c; }
+.actBeach a{ background-color: #dcc05b; }
+.actWater a{ background-color: #3c56ff; }
+.actMinigame a{ background-color: #f495ff; }
+.actIntense a{ background-color: #cd4d4d; }
+.actDeep a{ background-color: #592487; }
+.actCampwide a{ background-color: #ffa425; }
+
+nav{
+    background: #90bfd0;
+    background-image: url("images/sunsetBanner.jpg");
+    /* Original image found from: https://www.facebook.com/campauroranh/ */
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+}
+nav img{
+    height: 80px;
+    width: auto;
+    padding: 0;
+    margin-right: 5px;
+    float: left;
+}
+nav a{
+    /* background-color: white; */
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Sigmar-One', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin: .5rem;
+    display: flex;
+}
+nav button{
+    background-color: transparent;
+    border: none;
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Sigmar-One', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin: .5rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+header{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-bottom: 2px solid #000000;
+    clear: both;
+}
+header img{
+    width: 80%;
+    max-width: 800px;
+    height: auto;
+    box-shadow: 0px 0px 22px 4px rgba(0,0,0,0.75);
+}
+header h1{
+    margin: 10px;
+}
+
+.main-content{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    clear: both;
+}
+
+footer{
+    background-color: #2d2d2d;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+footer div{ /* Skills stretch: Flex grow & flex shrink with good formatting/readability, referenced https://www.w3schools.com/ */
+    margin: 10px;
+    flex: 1 1 300px;
+}
+footer a{
+    color:#83ffff;
+}
+footer h1{
+    margin-top: 0;
+}
+footer address{
+    font-style: normal;
+}
